@@ -1,15 +1,10 @@
-//import java.io.BufferedReader;
-//import java.io.IOException;
-//import java.io.InputStreamReader;
+//Author: Mike Urbano
 import java.io.*;
 import java.util.*;
 
 public class Tictac{
   public static void main(String args[]) throws IOException
   {
-    /*char board[][] = { {'X','X','X'},
-                       {'O','-','O'},
-                       {'-','O','X'}  };*/
     char board[][] = new char[3][3];
     File input = new File("input.txt");
     Scanner lineScanner = new Scanner(input);
